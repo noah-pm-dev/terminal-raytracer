@@ -2,8 +2,6 @@ from sys import stdout, stdin
 import termios, tty
 import math
 from os import get_terminal_size
-import time
-import threading
 
 class Game:
     def __init__(self, player_x, player_y, player_angle):
